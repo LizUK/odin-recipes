@@ -4,42 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Odin Recipes - Mint Chicken</title>
 </head>
-<body>
+<body class="recipepage">
     
-    <h1>Mint Chicken</h1>
+    <div id="wrapper">
 
-    <img src="recipes/images/mint-chicken-dish.webp" alt="Mint Chicken">
+        <div id="main-content">
 
-    <h2>A long-standing family favourite</h2>
-    <p>A favorite family recipe that my Mom has made for hundreds of guests. Fresh lemon juice and mint leaves are a must! Serve over hot cooked white rice.</p>
+            <a href="../index.html"><img id="logo" src="images/logo.png" alt="Taste Buddy"></a>
+            <input id="search" placeholder="Search">
 
-    <h3>Ingredients</h3>
-    <ul>
-        <li>2 skinless, boneless chicken breast halves - cut into bite-size pieces</li>
+            <div class="recipe-heading">
 
-        <li>1 clove garlic, crushed</li>
+                <h4>Main course</h4>
+
+                <h1>Mint Chicken</h1>
+                <p><img class="fivestars" src="images/fivestars.png" alt="star rating"></p>
+
+                <img class="dishimage" src="images/mint-chicken-dish.webp" alt="Mint Chicken">
+
+            </div>
+
+            <div class="recipe-directions">
+
+                <div class="recipe-intro">
+
+                    <h2>A long-standing family favourite</h2>
+                    <p>A favorite family recipe that my Mom has made for hundreds of guests. Fresh lemon juice and mint leaves are a must! 
+                        Serve over hot cooked white rice.</p>
+
+                </div>
+
+                <h2>Directions</h2>
+                <ol>
+                    <li><span class="step-no">Step 1</span><span class="steps">In a medium bowl, mix together the chicken pieces and garlic. 
+                        Toss with the flour just to coat, and shake off excess.</span></li>
             
-        <li>½ cup all-purpose flour</li>
-            
-        <li>½ cup margarine</li>
-            
-         <li>¼ cup fresh lemon juice</li>
-            
-        <li>½ cup chopped fresh mint leaves</li>
-    </ul>
+                    <li><span class="step-no">Step 2</span><span class="steps">Heat the margarine in a large skillet over medium-high heat. 
+                        Add the chicken pieces; cook and stir until browned. Add the mint leaves and lemon juice, 
+                        cover and steam for about 5 minutes, just until the chicken is cooked through. 
+                        Do not over cook the chicken or it will be tough.</span></li>
+                </ol>
 
-    <h3>Steps</h3>
-    <ol>
-        <li>In a medium bowl, mix together the chicken pieces and garlic. 
-            Toss with the flour just to coat, and shake off excess.</li>
+            </div>
 
-        <li>Heat the margarine in a large skillet over medium-high heat. 
-            Add the chicken pieces; cook and stir until browned. Add the mint leaves and lemon juice, 
-            cover and steam for about 5 minutes, just until the chicken is cooked through. 
-            Do not over cook the chicken or it will be tough.</li>
-    </ol>
+            <div class="copyright">
+                <p>Copyright Elizabeth Phillips 2023</p>
+            </div>
+
+        </div><!-- End Main-content -->
+
+        <div id="side-content">
+
+            <div id="quick-info">
+
+                <p><img src="images/ten.png" alt="Preparation time">Preparation time: <span>10 mins</span></p>
+
+                <p><img src="images/time.png" alt="Cooking time">Cooking time: <span>30 mins</span></p>
+
+                <p><img src="images/trend.png" alt="Total time">Total time: <span>40 mins</span></p>
+
+                <p><img src="images/halfhalf.png" alt="Servings">Servings: <span>4</span></p>
+
+            </div><!-- End Quick-info -->
+
+            <div id="ingredients">
+
+                <h2>Ingredients</h2>
+
+                <ul>
+                    <li class="done"><span>2 skinless</span>, boneless chicken breast halves - cut into bite-size pieces</li>
+            
+                    <li class="done"><span>1 clove</span> garlic, crushed</li>
+                        
+                    <li class="done"><span>½ cup</span> all-purpose flour</li>
+                        
+                    <li class="not-done"><span>½ cup</span> margarine</li>
+                        
+                     <li class="not-done"><span>¼ cup</span> fresh lemon juice</li>
+                        
+                    <li class="not-done"><span>½ cup</span> chopped fresh mint leaves</li>
+                </ul>
+
+                <div class="add-links">
+
+                   <a href="#"><img src="images/basket.png" alt="Add items to basket" title="Add items to basket"></a>
+                   <a href="#"><img src="images/comment.png" alt="Comment" title="Leave a comment"></a>
+                   <a href="#"><img src="images/image.png" alt="Upload image" title="Upload your own image"></a>
+                   <a href="#"><img src="images/share.png" alt="Share" title="Share"></a>
+                   <a href="#"><img src="images/bookmark.png" alt="Bookmark" title="Bookmark this page"></a>
+
+                </div>
+
+            </div><!-- End ingredients -->
+            
+        </div><!-- End side-content -->
+
+    </div><!-- End wrapper -->
     
 </body>
 </html>
